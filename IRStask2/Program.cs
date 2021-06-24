@@ -7,7 +7,7 @@ namespace IRStask2
         static void Main(string[] args)
         {   
             double a1,b1,a2,b2, theta;
-            Console.Write("We will be working with 2 vectors. Enter the values carefully. \nEnter the magnitude of y for vector 1: ");
+            Console.Write("We will be working with 2 vectors. Enter the values carefully.\nVector 2 is anti-clockwise to Vector 1. \nEnter the magnitude of y for vector 1: ");
             a1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter the magnitude of z for vector 1: ");
             b1 = Convert.ToInt32(Console.ReadLine());
